@@ -1,0 +1,145 @@
+/* Style for error messages */
+.text-danger {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+/* Styling for the form container */
+.container {
+    max-width: 600px;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Styling for the form heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* General input field styling */
+input {
+    border-radius: 8px !important;
+    padding: 12px !important;
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Spacing for each form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Custom styling for focus on input fields */
+input:focus {
+    border-color: #007bff !important;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25) !important;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}/* Style for error messages */
+.text-danger {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Styling for the form container */
+.container {
+    max-width: 600px;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Styling for the form heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* General input field styling */
+input {
+    border-radius: 8px !important;
+    padding: 12px !important;
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Spacing for each form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Custom styling for focus on input fields */
+input:focus {
+    border-color: #007bff !important;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25) !important;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
